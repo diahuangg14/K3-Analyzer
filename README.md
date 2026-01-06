@@ -11,13 +11,13 @@ Example:
 ```python
 ["person", "helmet", "vest"]
 
-Output
+# Output
 Dictionary containing:
 
 rule-based caption & risks
 LLM-generated analysis
 
-Usage
+# Usage
 from analyzer import k3_object_analyzer
 result = k3_object_analyzer(detected_objects)
 
